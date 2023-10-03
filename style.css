@@ -45,6 +45,7 @@ a{
     padding: 10px;
 }
 /* section 2 */
+
 .section-2{
     padding-top: 5vh;
     width: 80%;
@@ -57,7 +58,7 @@ a{
 
 .section-2 p{
     font-size: 1.1rem;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     margin:0;
 }
 
@@ -84,6 +85,7 @@ a{
 
 /* animations / utilities */
 .section-2 a:hover{
+    text-decoration: underline;
     font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
@@ -116,3 +118,23 @@ a{
         padding-top: 2rem;
     }
 }
+
+.resume-btn {
+    padding: 8px 15px;
+    color: #7A7C80;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.resume-btn:hover {
+    text-decoration: underline;
+}
+
+
+body::after {
+    content: "";
+    display: block;
+    height: 75px;  /* Adjust value as needed */
+}
+
