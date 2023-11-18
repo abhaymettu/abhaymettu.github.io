@@ -79,11 +79,10 @@ a{
 
 .project-card {
     flex: 0 1 calc(50% - 10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 
-/* animations / utilities */
 .section-2 a:hover{
     text-decoration: underline;
     font-size: 1.3rem;
@@ -135,6 +134,6 @@ a{
 body::after {
     content: "";
     display: block;
-    height: 75px;  /* Adjust value as needed */
+    height: 75px;  
 }
 
